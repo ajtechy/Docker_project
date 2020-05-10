@@ -1,4 +1,8 @@
 # Docker_project
+
+# Introduction 
+Docker project on launching owncloud in my system by using docker container over rhel 8 and u can put your gb's of data here which will be safe and secure for us.
+
 REQUIREMENTS:
 
 1. docker installed in your system
@@ -6,9 +10,6 @@ REQUIREMENTS:
 2. owncloud:latest  and mysql:5.7 image (cointainer image)
 
 3. docker-compose
-
-# Introduction 
-Docker project on launching owncloud in my system by using docker container over rhel 8 and u can put your gb's of data here which will be safe and secure for us.
 
 
 # Steps
@@ -32,7 +33,7 @@ step 6 : get IP of your owncloud images using following command
 1.  docker inspect < id of owncloud container > | grep IP
   
 Step 6 : put this IP in firefox and their will be owncloud home page in front of you where u can upload your data and enjoy. 
-1.  <IP>/index.php
+1.  < IP >/index.php
   
-for example  172.18.0.2/index.php
+for example  172.18.0.2/index.php 
 
