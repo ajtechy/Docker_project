@@ -21,5 +21,6 @@ step 2 : download images if not available using following command
 
 step 3 : download mysql client if not download using following command
 1.  yum install mysql
+
 step 4 : inside any dir create ur docker-compose.yml and paste the code of my docker-compose.yml Then run the following cpmmand on cmd 
-1.  docker-compose up -d
+  1.  docker-compose up -d
