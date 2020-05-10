@@ -29,5 +29,9 @@ step 5 : get container id of both images using following command
 1.  docker ps 
 
 step 6 : get IP of your owncloud images using following command
-1.  docker ps <id of container> | grep IP
+1.  docker inspect < id of owncloud container > | grep IP
+  
+Step 6 : put this IP in firefox and their will be owncloud home page in front of you where u can upload your data and enjoy. 
+1.  <IP>/index.php
+  for example  172.18.0.2/index.php
 
