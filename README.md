@@ -33,5 +33,6 @@ step 6 : get IP of your owncloud images using following command
   
 Step 6 : put this IP in firefox and their will be owncloud home page in front of you where u can upload your data and enjoy. 
 1.  <IP>/index.php
-  for example  172.18.0.2/index.php
+  
+for example  172.18.0.2/index.php
 
